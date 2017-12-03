@@ -1,4 +1,8 @@
 
+## December 2, 2017
+I was trying to add OpenCV to the already working camera module and in the process i somehow managed to delete my home directory. I rebooted my Pi but no luck, so i removed the sd card from the pi and plugged it in my computer to see that the pi has split my drive in 4 diffrent drives. I formated all of them and now i am STUCK.<br> 
+I have been working on adding the AI for ore than 5 hours now. I think i am reaching the end of today's session. I will now pack this shit up and will start working on it with a freash mind on monday. 
+
 ## November 28, 2017
 - I connected the SenseHat to my pi and uploaded the coade on the pi, and the LED started blinking.<br>
 - I did not checked weather the sensors where collecting the data, because i wanted to start to work on my sensor instead.
