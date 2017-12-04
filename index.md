@@ -1,3 +1,7 @@
+## December 4,2017
+FINALY i formated my sd card using the sd card formatter and re- installed Rasbian in it. I cloned the StudentSenseHat Repository fron GitHub to my Pi and checked for the sensors to work.<br>
+![Alt text](https://github.com/AbhaySingla/college/blob/master/PCB%20board%20runnig.png?raw=true "Working PCB board)<br>
+Because all of this was done fairly quickly, i also tested my PIR sensor because i had already emailed the working code to myself bufore the sd card started to act funny.
 
 ## December 2, 2017
 I was trying to add OpenCV to the already working camera module and in the process i somehow managed to delete my home directory. I rebooted my Pi but no luck, so i removed the sd card from the pi and plugged it in my computer to see that the pi has split my drive in 4 diffrent drives. I formated all of them and now i am STUCK.<br> 
