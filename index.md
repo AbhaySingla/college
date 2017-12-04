@@ -1,6 +1,8 @@
 ## December 4,2017
 FINALY i formated my sd card using the sd card formatter and re- installed Rasbian in it. I cloned the StudentSenseHat Repository fron GitHub to my Pi and checked for the sensors to work.<br>
 ![Alt text](https://github.com/AbhaySingla/college/blob/master/PCB%20board%20runnig.png?raw=true "Working PCB board)<br>
+![Alt text](https://github.com/PRana02/Wireless-Microphone/blob/master/Sensors%20and%20LED.png?raw=true "Green Light")<br>
+
 Because all of this was done fairly quickly, i also tested my PIR sensor because i had already emailed the working code to myself bufore the sd card started to act funny.
 
 ## December 2, 2017
