@@ -1,6 +1,7 @@
 ## December 12, 2017
 - Made the group playcard.
 - Wrote the script for the 30 seconds video.
+-- word file for the script: https://github.com/AbhaySingla/college/blob/master/30min%20script.docx
 
 
 ## December 4,2017
