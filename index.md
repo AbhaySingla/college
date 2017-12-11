@@ -1,3 +1,8 @@
+## December 12, 2017
+- Made the group playcard.
+- Wrote the script for the 30 seconds video.
+
+
 ## December 4,2017
  - The Ghmain is working fine without any errors, in the class in front of the instructor, Hardware clock and BME 280 was not working till the time instructor visited my workstation for the first time. I was able to detect and work with the BME280 sensor with the given BME280.py code while i was trying to debug the hardware clock.
  - FINALY i formated my sd card using the sd card formatter and re- installed Rasbian in it. I cloned the StudentSenseHat Repository fron GitHub to my Pi and checked for the sensors to work.<br>
