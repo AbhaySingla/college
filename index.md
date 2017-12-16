@@ -5,7 +5,7 @@ Until then this is the priliminary one:https://github.com/AbhaySingla/college/bl
 ## December 12, 2017
 - Made the group playcard.
 - Wrote the script for the 30 seconds video.<br>
--- word file for the script: https://github.com/AbhaySingla/college/blob/master/30min%20script.docx
+-- word file for the script: https://github.com/AbhaySingla/college/blob/master/30min%20script.docx<br>
 -- Placard: https://github.com/AbhaySingla/college/blob/master/placard.pdf
 
 ## December 4,2017
