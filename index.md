@@ -1,8 +1,12 @@
+## December 16, 2017
+I made a priliminary 30 second video, for the submission on monday but i have send the prints for the 3d print to the prototype lab and according to Vlad they will be available hopefully by thursday and then i will make the compleate video. <br>
+Until then this is the priliminary one:https://github.com/AbhaySingla/college/blob/master/30sec%20Clip.mp4
+
 ## December 12, 2017
 - Made the group playcard.
-- Wrote the script for the 30 seconds video.
+- Wrote the script for the 30 seconds video.<br>
 -- word file for the script: https://github.com/AbhaySingla/college/blob/master/30min%20script.docx
-
+-- Placard: https://github.com/AbhaySingla/college/blob/master/placard.pdf
 
 ## December 4,2017
  - The Ghmain is working fine without any errors, in the class in front of the instructor, Hardware clock and BME 280 was not working till the time instructor visited my workstation for the first time. I was able to detect and work with the BME280 sensor with the given BME280.py code while i was trying to debug the hardware clock.
@@ -14,7 +18,7 @@ Because all of this was done fairly quickly, i also tested my PIR sensor because
 
 ## December 2, 2017
 I was trying to add OpenCV to the already working camera module and in the process i somehow managed to delete my home directory. I rebooted my Pi but no luck, so i removed the sd card from the pi and plugged it in my computer to see that the pi has split my drive in 4 diffrent drives. I formated all of them and now i am STUCK.<br> 
-I have been working on adding the AI for more than 5 hours now. I think i am reaching the end of today's session. I will now pack this shit up and will start working on it with a fresh mind on monday. 
+I have been working on adding the AI for more than 5 hours now. I think i am reaching the end of today's session. I will now pack the stuff up and will start working on it with a fresh mind on monday. 
 
 ## November 28, 2017
 - I connected the SenseHat to my pi and uploaded the coade on the pi, and the LED started blinking.<br>
