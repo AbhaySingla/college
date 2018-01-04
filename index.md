@@ -1,12 +1,12 @@
 ## December 16, 2017
 I made a priliminary 30 second video, for the submission on monday but i have send the prints for the 3d print to the prototype lab and according to Vlad they will be available hopefully by thursday and then i will make the compleate video. <br>
-Until then this is the priliminary one:https://github.com/AbhaySingla/college/blob/master/30sec%20Clip.mp4
+Until then this is the priliminary one:[Video](https://github.com/AbhaySingla/college/blob/master/30sec%20Clip.mp4)
 
 ## December 12, 2017
 - Made the group playcard.
 - Wrote the script for the 30 seconds video.<br>
--- word file for the script: https://github.com/AbhaySingla/college/blob/master/30min%20script.docx<br>
--- Placard: https://github.com/AbhaySingla/college/blob/master/placard.pdf
+-- word file for the script: [Script](https://github.com/AbhaySingla/college/blob/master/30min%20script.docx)<br>
+-- Placard: [Placard](https://github.com/AbhaySingla/college/blob/master/placard.pdf)
 
 ## December 4,2017
  - The Ghmain is working fine without any errors, in the class in front of the instructor, Hardware clock and BME 280 was not working till the time instructor visited my workstation for the first time. I was able to detect and work with the BME280 sensor with the given BME280.py code while i was trying to debug the hardware clock.
