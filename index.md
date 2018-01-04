@@ -1,3 +1,6 @@
+## January 3, 2018
+I have uploaded my [final code](https://github.com/AbhaySingla/college/blob/master/PirPlusCamera2.py) on github.
+
 ## January 2, 2018
 I made a few changes in the code i wrote and made it better. Also i housed my pir sensor and the camera module in the 3d printed cases. Unfortunately i could not make the video for it but here are some pics.<br>
 ![Alt text](https://github.com/AbhaySingla/college/blob/master/Screenshot_20180103-195814.png)
