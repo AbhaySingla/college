@@ -1,3 +1,6 @@
+## January 7, 2018
+The [Progress Report](https://github.com/AbhaySingla/college/blob/master/Progress%20report.docx) is on github.
+
 ## January 3, 2018
 I have uploaded my [final code](https://github.com/AbhaySingla/college/blob/master/PirPlusCamera2.py) on github.
 
