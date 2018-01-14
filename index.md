@@ -1,3 +1,6 @@
+## January 14, 2018
+The [Powerpoint Presentaion](https://github.com/AbhaySingla/college/blob/master/Store%20Helpline.pptx) is on github.
+
 ## January 7, 2018
 The [Progress Report](https://github.com/AbhaySingla/college/blob/master/Progress%20report.docx) is on github.
 
