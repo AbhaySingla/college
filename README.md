@@ -23,4 +23,5 @@ I used the case in the kit for the pi, and I 3D printed housings for the camera 
 The .stl files for them are in the [zip forler](https://github.com/AbhaySingla/college/blob/master/3d%20printing.zip).
 
 ## Start
-
+1. Testing the PIR sensor:
+<t> - Connect the sensor as shown in the schema:
