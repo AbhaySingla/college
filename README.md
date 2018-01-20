@@ -23,7 +23,7 @@ I used the case in the kit for the pi, and I 3D printed housings for the camera 
 The .stl files for them are in the [zip forler](https://github.com/AbhaySingla/college/blob/master/3d%20printing.zip).
 
 ## Start
-- Testing the PIR sensor:
+#### Testing the PIR sensor:
 1.  Connect the sensor as shown in the schema
 2.  Open the console
 3.  Open a new python script
@@ -58,5 +58,5 @@ The .stl files for them are in the [zip forler](https://github.com/AbhaySingla/c
  ```
  7. If test the sensor by moving infront of it, remember there is a 2 seconds delay in between two readings in the script provided above.
  
-- Test the Camera.
+#### Test the Camera.
 
