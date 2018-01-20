@@ -63,6 +63,6 @@ The .stl files for them are in the [zip forler](https://github.com/AbhaySingla/c
  ```Shell
     sudo raspi-config
  ```
-<tab>Select ```Enable camera``` and hit ```Enter```, then go to ```Finish``` and you'll be prompted to reboot.
+&emsp Select ```Enable camera``` and hit ```Enter```, then go to ```Finish``` and you'll be prompted to reboot.
  
 
