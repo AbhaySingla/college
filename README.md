@@ -29,6 +29,6 @@ The .stl files for them are in the [zip forler](https://github.com/AbhaySingla/c
 3.  Open a new python script
   ```Shell
       sudo nano pirtest.py
-      ```
+      ```Shell
 4.  
  
