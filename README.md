@@ -30,4 +30,25 @@ The .stl files for them are in the [zip forler](https://github.com/AbhaySingla/c
   ```Shell
       sudo nano pirtest.py
  ```
- 4.
+ 4. Write the following code in the the file:
+  ```Shell
+     import RPi.GPIO as GPIO                           
+     import time
+     
+     GPIO.setmode(GPIO.BOARD)
+     pir = 7
+     GPIO.setup(pir, GPIO.IN)
+     print ("Waiting for sensor to settle")
+     time.sleep(2)
+     print ("Detecting motion")
+     while True:
+         if GPIO.input(pir):
+                 print ("Motion Detected!")
+                 time.sleep(10)
+         time.sleep(0.1)
+
+ ```
+ 5. Make the scipt excecutable
+  ```Shell
+     sudo chmod u+x pirtest.py
+     ``` 
