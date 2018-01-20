@@ -63,6 +63,33 @@ The .stl files for them are in the [zip forler](https://github.com/AbhaySingla/c
  ```Shell
     sudo raspi-config
  ```
-&emsp Select ```Enable camera``` and hit ```Enter```, then go to ```Finish``` and you'll be prompted to reboot.
+ 2. Select ```Enable camera``` and hit ```Enter```, then go to ```Finish``` and you'll be prompted to reboot.
+ 3. The ```python-picamera``` library is available in the Raspbian archives. 
+    Install with  apt:
+    ```
+    sudo apt-get update
+    sudo apt-get install python-picamera
+ 4.  Open a new python script
+ ```Shell
+      sudo nano camratest.py
+ ```
+ 5. Write the following code in the the file:
+  ```Shell
+     import picamera
+     from time import sleep
+     
+     camera = picamera.PiCamera()
+     camera.capture('image1.jpg')
+     sleep(5)
+     camera.capture('image2.jpg')
+  ```
+ 6. Make the scipt excecutable
+  ```Shell
+     sudo chmod u+x pirtest.py
+  ``` 
+ 7. Execute the script, to exit the script use Ctrl. + c 
+ ```Shell
+     python pirtest.py
+ ```
  
 
