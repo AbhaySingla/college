@@ -59,4 +59,10 @@ The .stl files for them are in the [zip forler](https://github.com/AbhaySingla/c
  7. If test the sensor by moving infront of it, remember there is a 2 seconds delay in between two readings in the script provided above.
  
 #### Test the Camera.
+ 1. Enable the picamera.
+ ```Shell
+    sudo raspi-config
+ ```
+ Select ```Enable camera``` and hit ```Enter```, then go to ```Finish``` and you'll be prompted to reboot.
+ 
 
