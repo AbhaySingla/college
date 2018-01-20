@@ -44,7 +44,7 @@ The .stl files for them are in the [zip forler](https://github.com/AbhaySingla/c
      while True:
          if GPIO.input(pir):
                  print ("Motion Detected!")
-                 time.sleep(10)
+                 time.sleep(2)
          time.sleep(0.1)
 
  ```
@@ -52,3 +52,11 @@ The .stl files for them are in the [zip forler](https://github.com/AbhaySingla/c
   ```Shell
      sudo chmod u+x pirtest.py
   ``` 
+ 6. Execute the script, to exit the script use Ctrl. + c 
+ ```Shell
+     python pirtest.py
+ ```
+ 7. If test the sensor by moving infront of it, remember there is a 2 seconds delay in between two readings in the script provided above.
+ 
+- Test the Camera.
+
