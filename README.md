@@ -23,5 +23,12 @@ I used the case in the kit for the pi, and I 3D printed housings for the camera 
 The .stl files for them are in the [zip forler](https://github.com/AbhaySingla/college/blob/master/3d%20printing.zip).
 
 ## Start
-1. Testing the PIR sensor:
-- Connect the sensor as shown in the schema:
+- Testing the PIR sensor:
+1.  Connect the sensor as shown in the schema
+2.  Open the console
+3.  Open a new python script
+  ```Shell
+      sudo nano pirtest.py
+      ```
+4.  
+ 
