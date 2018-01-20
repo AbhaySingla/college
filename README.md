@@ -24,4 +24,4 @@ The .stl files for them are in the [zip forler](https://github.com/AbhaySingla/c
 
 ## Start
 1. Testing the PIR sensor:
-<t> - Connect the sensor as shown in the schema:
+- Connect the sensor as shown in the schema:
