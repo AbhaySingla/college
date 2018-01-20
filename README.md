@@ -12,3 +12,5 @@
 -- There are options from $6 for a 20 pack, you need only 3 wires for this project.
 
 ## Project Schema
+![Alt text](https://github.com/AbhaySingla/college/blob/master/5th%20sem%20project%20schema_1.pdf)
+
