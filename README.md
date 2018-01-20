@@ -27,10 +27,10 @@ The .stl files for them are in the [zip forler](https://github.com/AbhaySingla/c
 1.  Connect the sensor as shown in the schema
 2.  Open the console
 3.  Open a new python script
-  ```Shell
-      sudo nano pirtest.py
- ```
- 4. Write the following code in the the file:
+    ```
+    sudo nano pirtest.py
+
+4. Write the following code in the the file:
   ```Shell
      import RPi.GPIO as GPIO                           
      import time
@@ -49,30 +49,31 @@ The .stl files for them are in the [zip forler](https://github.com/AbhaySingla/c
 
  ```
  5. Make the scipt excecutable
-  ```Shell
-     sudo chmod u+x pirtest.py
-  ``` 
+    ```
+    sudo chmod u+x pirtest.py
+ 
  6. Execute the script, to exit the script use Ctrl. + c 
- ```Shell
-     python pirtest.py
- ```
+    ```
+    python pirtest.py
+
  7. If test the sensor by moving infront of it, remember there is a 2 seconds delay in between two readings in the script provided above.
  
 #### Test the Camera.
  1. Enable the picamera.
- ```Shell
+    ```
     sudo raspi-config
- ```
+ 
  2. Select ```Enable camera``` and hit ```Enter```, then go to ```Finish``` and you'll be prompted to reboot.
  3. The ```python-picamera``` library is available in the Raspbian archives. 
     Install with  apt:
     ```
     sudo apt-get update
     sudo apt-get install python-picamera
- 4.  Open a new python script
- ```Shell
-      sudo nano camratest.py
- ```
+ 
+ 4. Open a new python script
+    ```
+    sudo nano camratest.py
+     
  5. Write the following code in the the file:
   ```Shell
      import picamera
@@ -84,12 +85,12 @@ The .stl files for them are in the [zip forler](https://github.com/AbhaySingla/c
      camera.capture('image2.jpg')
   ```
  6. Make the scipt excecutable
-  ```Shell
-     sudo chmod u+x pirtest.py
-  ``` 
- 7. Execute the script, to exit the script use Ctrl. + c 
- ```Shell
-     python pirtest.py
- ```
+    ```
+    sudo chmod u+x pirtest.py
+  
+ 7. Execute the script 
+    ```
+    python pirtest.py
+ 8.
  
 
