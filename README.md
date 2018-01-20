@@ -1,7 +1,9 @@
 # PIR Sensor
 
-## Stuff you need:
-- Raspberry Pi 3 with a case and a power-supply(I only worked on a pi3, but its only a simple python code so it should run on other models, but I am not sure of it)
+## Stuff you need (All the prices are from amazon.ca):
+- Raspberry Pi 3 with a case and a power-supply(I only worked on a pi3, but its only a simple python code so it should run on other models, but I am not sure of it)<br>
 -- $79.99 + Tax
-- PIR Sensor
--- 
+- PIR Sensor <br>
+-- $8.99 + Tax for 1 sensor<br>
+-- $12.99+ Tax for 3 sensors
+- 
