@@ -51,4 +51,4 @@ The .stl files for them are in the [zip forler](https://github.com/AbhaySingla/c
  5. Make the scipt excecutable
   ```Shell
      sudo chmod u+x pirtest.py
-     ``` 
+  ``` 
