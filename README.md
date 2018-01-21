@@ -1,5 +1,8 @@
 # PIR Sensor
 
+## Index
+1.  [Stuff you need](#stuff you need)
+
 ## Stuff you need (All the prices are from amazon.ca and may change by thime you see them):
 - Raspberry Pi 3 with a case and a power-supply(I only worked on a pi3, but its only a simple python code so it should run on other models, but I am not sure of it)<br>
 -- $79.99 + Tax
@@ -23,12 +26,15 @@ I used the case in the kit for the pi, and I 3D printed housings for the camera 
 The .stl files for them are in the [zip forler](https://github.com/AbhaySingla/college/blob/master/3d%20printing.zip).<br>
 This process might take you upto a day.
 
-## Start
-This whole process will take you upto 2 hours.
+## Start (This whole process will take you upto 4 hours.)
+
 #### Setting up RaspberryPI
+1. Connect the display in the HDMI port, connect the keyboard and he mouse and also give the pi an eathernet connection.
+2. On the first boot, with NOOBS installed on you sd card, you will be asked to install the OS.
+3. Select the raspbian OS, and wait for it to install. This might take upto 15 mins.
 
 #### Testing the PIR sensor:
-1.  Connect the sensor as shown in the schema
+1.  Connect the sensor as shown in the schema (VCC- pin2, GND- pin6, DigitalOutput- pin7)
 2.  Open the console
 3.  Open a new python script
     ```
@@ -142,5 +148,8 @@ This whole process will take you upto 2 hours.
  
  6. When you run this script, as soon as the sensor detectes motion, the camera will turn on for 10 seconds and a picture will be clicked. The pictures will be saved in the home directory.
  
+ ## Unit Testing
+ 
+ ## Production Testing
  
 
