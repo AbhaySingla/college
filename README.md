@@ -20,9 +20,13 @@
 
 ## Sensor Housings
 I used the case in the kit for the pi, and I 3D printed housings for the camera and sensor.
-The .stl files for them are in the [zip forler](https://github.com/AbhaySingla/college/blob/master/3d%20printing.zip).
+The .stl files for them are in the [zip forler](https://github.com/AbhaySingla/college/blob/master/3d%20printing.zip).<br>
+This process might take you upto a day.
 
 ## Start
+This whole process will take you upto 2 hours.
+#### Setting up RaspberryPI
+
 #### Testing the PIR sensor:
 1.  Connect the sensor as shown in the schema
 2.  Open the console
@@ -64,11 +68,12 @@ The .stl files for them are in the [zip forler](https://github.com/AbhaySingla/c
     sudo raspi-config
  
  2. Select ```Enable camera``` and hit ```Enter```, then go to ```Finish``` and you'll be prompted to reboot.
- 3. The ```python-picamera``` library is available in the Raspbian archives. 
+ 3. The ```python-picamera``` library is available in the Raspbian archives.<br> 
     Install with  apt:
     ```
     sudo apt-get update
     sudo apt-get install python-picamera
+ (This is the only part where you need to wait and do nothing, it might take you upto 15 minutes.)
  
  4. Open a new python script
     ```
