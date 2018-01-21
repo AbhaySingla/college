@@ -1,7 +1,7 @@
 # PIR Sensor
 
 ## Index
-1.  [Stuff you need](#stuff you need)
+1.  [Stuff you need](## Stuff you need)
 
 ## Stuff you need (All the prices are from amazon.ca and may change by thime you see them):
 - Raspberry Pi 3 with a case and a power-supply(I only worked on a pi3, but its only a simple python code so it should run on other models, but I am not sure of it)<br>
