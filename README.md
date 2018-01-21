@@ -86,11 +86,22 @@ The .stl files for them are in the [zip forler](https://github.com/AbhaySingla/c
   ```
  6. Make the scipt excecutable
     ```
-    sudo chmod u+x pirtest.py
+    sudo chmod u+x cameratest.py
   
  7. Execute the script 
     ```
-    python pirtest.py
- 8.
+    python cameratest.py
+ 
+ 8. This code will click two pictures, in an interval of 5 seconds, stored in the home directory by the names ```image1.jpg``` and ```image2.jpg```
+ 
+#### Getting both the components together
+ 1. Now that we know, both of our PIR sensor and the camera module works as desired, we can start writing our code.
+ 2.  Open a new python script
+    ```
+    sudo nano pirandcamera.py
+  
+ 5. Write the following code in the the file:
+ 
+ 
  
 
