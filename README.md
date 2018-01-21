@@ -157,8 +157,6 @@ This process might take you upto a day.
  
  6. When you run this script, as soon as the sensor detectes motion, the camera will turn on for 10 seconds and a picture will be clicked. The pictures will be saved in the home directory.
  
- ## Unit Testing
- 
  ## Production Testing
- 
+ To produce this setup on a production line, i would suggest that insted of making a 3D printed case for individual items, instead make a laser cut case that houses the three part; PI, PIR sensor and Camera module together.
 
