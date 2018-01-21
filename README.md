@@ -23,12 +23,24 @@ I used the case in the kit for the pi, and I 3D printed housings for the camera 
 The .stl files for them are in the [zip forler](https://github.com/AbhaySingla/college/blob/master/3d%20printing.zip).<br>
 This process might take you upto a day.
 
-## Start (This whole process will take you upto 4 hours.)
+## Mechanical Assembly
+1. Take the PI out of the package.
+   ![Alt text](https://github.com/AbhaySingla/college/blob/master/20171216_122031.jpg)
+2. Put the PI in the case, and then add the sd card to it.
+   ![Alt text](https://github.com/AbhaySingla/college/blob/master/20171216_122240.jpg)
+3. Add the camera module to the PI
+   ![Alt text](https://github.com/AbhaySingla/college/blob/master/20171216_122500.jpg)
+4. Add the PIR sensor to the PI
+   ![Alt test](https://github.com/AbhaySingla/college/blob/master/20171216_122719.jpg)
 
-#### Setting up RaspberryPI
+## Setting up RaspberryPI
 1. Connect the display in the HDMI port, connect the keyboard and he mouse and also give the pi an eathernet connection.
+   ![Alt text](https://github.com/AbhaySingla/college/blob/master/20171216_122934.jpg)
 2. On the first boot, with NOOBS installed on you sd card, you will be asked to install the OS.
 3. Select the raspbian OS, and wait for it to install. This might take upto 15 mins.
+   ![Alt text](https://github.com/AbhaySingla/college/blob/master/20171216_122916.jpg)
+
+## Start (This whole process will take you upto 4 hours.)
 
 #### Testing the PIR sensor:
 1.  Connect the sensor as shown in the schema (VCC- pin2, GND- pin6, DigitalOutput- pin7)
