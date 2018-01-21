@@ -101,7 +101,41 @@ The .stl files for them are in the [zip forler](https://github.com/AbhaySingla/c
      sudo nano pirandcamera.py
  
  3. Write the following code in the the file:
+    ```Shell
+    import RPi.GPIO as GPIO                           
+    import time
+    import picamera
+
+    GPIO.setmode(GPIO.BOARD)                          
+    pir = 7                                         
+    GPIO.setup(pir, GPIO.IN)                           
+    print ("Waiting for sensor to settle")
+    time.sleep(2)                                     
+    print ("Detecting motion")
+    img = 1
+    camera = picamera.PiCamera()
+    while True:
+        if GPIO.input(pir):
+            print ("Motion Detected!")
+        
+            camera.start_preview()
+            img = img+1
+            time.sleep(10)
+            camera.capture("testimg"+str(img)+".jpg")
+            camera.stop_preview()
+    
+        time.sleep(0.1)   
+    ```
  
+ 4. Make the scipt excecutable
+    ```
+    sudo chmod u+x pirandcamera.py
+  
+ 5. Execute the script 
+    ```
+    python pirandcamera.py
+ 
+ 6. When you run this script, as soon as the sensor detectes motion, the camera will turn on for 10 seconds and a picture will be clicked. The pictures will be saved in the home directory.
  
  
 
