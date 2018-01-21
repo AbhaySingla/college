@@ -97,10 +97,10 @@ The .stl files for them are in the [zip forler](https://github.com/AbhaySingla/c
 #### Getting both the components together
  1. Now that we know, both of our PIR sensor and the camera module works as desired, we can start writing our code.
  2.  Open a new python script
-    ```
-    sudo nano pirandcamera.py
-  
- 5. Write the following code in the the file:
+     ```
+     sudo nano pirandcamera.py
+ 
+ 3. Write the following code in the the file:
  
  
  
