@@ -9,15 +9,7 @@
 
 import Tkinter as tk
 import pyrebase
-##config = {
-##  "apiKey": "AIzaSyCHOCo1cKZs7nNrjo7Q2RSBWRpNzGQhSUk",
-##  "authDomain": "helpine-de9a7.firebaseapp.com",
-##  "databaseURL": "https://helpine-de9a7.firebaseio.com",
-##  "projectId" : "helpine-de9a7",
-##  "storageBucket": "helpine-de9a7.appspot.com",
-##  "messagingSenderId" : "helpine-de9a7.appspot.com",
-##  "serviceAccount": "/home/pi/Desktop/Sqube_Solutions/helpine-70f2be3cc276.json"
-##}
+
 config = {
     "apiKey": "AIzaSyD3w34u_ldmgK61PaH5TAlQV64jj4ro1l8",
     "authDomain": "superstore-bde7f.firebaseapp.com",
@@ -70,10 +62,6 @@ class StartPage(tk.Frame):
         emailSt = emailEL.get()
         pwordSt = pwordEL.get()
         
-        
-##        print(emailSt)
-##        print(pwordSt)
-##        #authentication = fb.FirebaseAuthentication(pwordSt, emailSt, extra={'id': 123})
         auth = firebase.auth()
         try:
             user = auth.sign_in_with_email_and_password(emailSt, pwordSt)
@@ -83,14 +71,6 @@ class StartPage(tk.Frame):
             self.controller.show_frame(Search_Page)
         except:
             self.controller.show_frame(Wrong_Login)
-            
-##        if user is not None:
-##            #StoreHelpLine.show_frame(StoreHelpLine.self, Search_Page)
-##            
-##            
-##        else:
-##            self.controller.show_frame(Wrong_Login)
-##    
     
     def __init__(self, parent, controller):
         tk.Frame.__init__(self,parent)
@@ -121,11 +101,6 @@ class StartPage(tk.Frame):
         button = tk.Button(self, text="Sign-In",
                            command=self.Sign_In)#lambda: controller.show_frame(Search_Page))
         button.grid(columnspan=2, sticky="w")
-##
-##        button2 = tk.Button(self, text="Request Help",
-##                            command=lambda: controller.show_frame(Call_Help))
-##        button2.grid(columnspan=2, sticky="w")
-##            
 
 
 class Search_Page(tk.Frame):
@@ -136,10 +111,10 @@ class Search_Page(tk.Frame):
         
         file = open("temp.txt","a")
         file.write(searchSt)
-        file.close()        
-        self.controller.show_frame(Product_Details)
-
-        
+        file.close()    
+		myProduct_Details = Product_Details()
+		myProduct_Details.read_file()
+        self.controller.show_frame(Product_Details) 
 
     def __init__(self, parent, controller):
         tk.Frame.__init__(self, parent)
@@ -157,7 +132,6 @@ class Search_Page(tk.Frame):
         searchEL.grid(row=2, column=1)
         
         button2 = tk.Button(self, text="Search", command=self.search_function)
-                            #command=lambda: controller.show_frame(Product_Details))
         button2.grid(columnspan=2, sticky="w")
        
         button1 = tk.Button(self, text="Sign Out",
@@ -171,41 +145,14 @@ class Search_Page(tk.Frame):
 
 
 class Product_Details(tk.Frame):
-
-
-    
-    
+ 
     def __init__(self, parent, controller):
         tk.Frame.__init__(self, parent)
         label = tk.Label(self, text="Store HelLine", font=H1_FONT)
         label.grid(pady=10,padx=10)
         
         label2 = tk.Label(self, text="PRODUCT SCREEN",font=H2_FONT)
-        label2.grid(row=2)
-        
-        file = open("temp.txt","r+")
-        searchItem = file.readline()
-        #searchItem = "12345"
-        db = firebase.database()
-        searchval = db.child("Items").get()
-        labeltest = tk.Label(self, text=searchItem,font=H2_FONT)
-        labeltest.grid(row=10)
-                    
-        for item in searchval.each():
-            description = db.child("Items").child(item.key()).get()
-            
-            for itemdes in description.each():
-                if itemdes.key() == "Name":#itemdes.val() == searchItem:
-                    #file.write(itemdes.key())
-                    labelna = tk.Label(self, text=itemdes.val(),font=H2_FONT)
-                    labelna.grid(row=100)
-                    
-                    if itemdes.key() == "Asile Number":
-                        file.write(itemdes.val())
-      #              if itemdes.key() == "":
-      
-                    
-        file.close()        
+        label2.grid(row=2)       
         
 ##        product_pic = gz.Picture(self, image = "download.gif")
 ##        product_name = Text(app, text="filler", font="Times New Roman", color="Black")
@@ -227,6 +174,29 @@ class Product_Details(tk.Frame):
                             command=lambda: controller.show_frame(Call_Help))
         button3.grid(columnspan=2, sticky="w")
         
+	def read_file():
+		print "\nread file ran\n"
+		file = open("temp.txt","r+")
+        searchItem = file.readline()
+        #searchItem = "12345"
+        db = firebase.database()
+        searchval = db.child("Items").get()
+        labeltest = tk.Label(self, text=searchItem,font=H2_FONT)
+        labeltest.grid(row=10)
+                    
+        for item in searchval.each():
+            description = db.child("Items").child(item.key()).get()
+            
+            for itemdes in description.each():
+                if itemdes.key() == "Name":#itemdes.val() == searchItem:
+                    #file.write(itemdes.key())
+                    labelna = tk.Label(self, text=itemdes.val(),font=H2_FONT)
+                    labelna.grid(row=100)
+                    
+                    if itemdes.key() == "Asile Number":
+                        file.write(itemdes.val())
+        
+        file.close() 
         
 class Call_Help(tk.Frame):
 
@@ -261,4 +231,3 @@ class Wrong_Login(tk.Frame):
 
 app = StoreHelpLine()
 app.mainloop()
-
